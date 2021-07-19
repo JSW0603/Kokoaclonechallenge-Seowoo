@@ -1,0 +1,47 @@
+.state-bar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  padding: 5px 5px;
+  font-size: 10px;
+}
+
+.state-bar_column {
+  width: 33%;
+}
+
+.state-bar_column i {
+  font-size: 18px;
+}
+
+.state-bar_column:first-child span {
+  margin-right: 7px;
+  font-size: 16px;
+}
+
+.state-bar_column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.state-bar_column:nth-child(2) span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.state-bar_column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.state-bar_column:last-child span {
+  font-size: 14px;
+}
+
+.state-bar_column .fa-battery-three-quarters {
+  margin: 0px 15px;
+}

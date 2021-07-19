@@ -1,0 +1,42 @@
+.main-user {
+  justify-content: space-between;
+}
+
+.main-user,
+.main-user_profile:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.main-user_photo-people,
+.main-user_photo-icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 31px;
+  margin-right: 20px;
+}
+
+.user-info-title {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #f9c596;
+}
+
+.user-info-subtitle {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #f9c596;
+}
+
+.main-user_photo-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.chat-time {
+  margin-bottom: 10px;
+  display: block;
+  color: #f9c596;
+}

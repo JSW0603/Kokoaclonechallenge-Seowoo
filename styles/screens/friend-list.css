@@ -1,0 +1,84 @@
+.friend-header,
+.chats-header,
+.chat-header,
+.find-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 5px;
+  margin-bottom: 10px;
+}
+
+.fa-smile-wink,
+.fa-arrow-up,
+.fa-plus-square,
+.fa-cog,
+.fa-search,
+.fa-comment-dots,
+.fa-music,
+.fa-angle-left {
+  font-size: 22px;
+}
+
+.fa-search,
+.fa-music,
+.fa-comment-dots {
+  margin-right: 20px;
+}
+
+.friend-header_title,
+.chats-header_title,
+.chat-header_title,
+.find-header_title {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.friend-display {
+  display: block;
+  text-align: center;
+  background-color: #e67ea3;
+  padding: 15px 0px;
+  font-size: 22px;
+  margin-bottom: 22px;
+  margin-top: -20px;
+  width: 100%;
+}
+
+.fa-info-circle {
+  margin-right: 10px;
+}
+
+.fa-angle-right {
+  margin-left: 15px;
+}
+
+.friend-main {
+  padding: 0px;
+}
+
+.friend-user-channel {
+  border-top: 1px solid rgb(131, 130, 130);
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.friend-user-channel_header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.chats-header_icons .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
+}

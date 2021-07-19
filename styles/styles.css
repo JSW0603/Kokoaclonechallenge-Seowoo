@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+@import "basics/nav.css";
+@import "basics/main-user.css";
+@import "basics/bottom-nav.css";
+@import "basics/find-icon.css";
+@import "basics/over-screen.css";
+
+@import "screens/logins.css";
+@import "screens/friend-list.css";
+@import "screens/chats.css";
+@import "screens/chat.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/setting.css";
+
+body {
+  color: #f9c596;
+  background-color: #fc5d9d;
+  font-family: "Indie Flower", cursive;
+  height: 180vh;
+}
