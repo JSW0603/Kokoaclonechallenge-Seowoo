@@ -5,6 +5,7 @@
 @import "basics/bottom-nav.css";
 @import "basics/find-icon.css";
 @import "basics/over-screen.css";
+@import "basics/header.css";
 
 @import "screens/logins.css";
 @import "screens/friend-list.css";
@@ -13,10 +14,17 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/setting.css";
+@import "screens/loading.css";
+@import "screens/sana-chat.css";
 
 body {
-  color: #f9c596;
-  background-color: #fc5d9d;
-  font-family: "Indie Flower", cursive;
+  color: #fefefe;
+  background: radial-gradient(#fc5d9d, #f9c596);
+  font-family: "Balsamiq Sans", cursive;
   height: 180vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }

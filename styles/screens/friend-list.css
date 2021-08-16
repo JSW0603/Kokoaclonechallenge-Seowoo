@@ -1,14 +1,3 @@
-.friend-header,
-.chats-header,
-.chat-header,
-.find-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0px 5px;
-  margin-bottom: 10px;
-}
-
 .fa-smile-wink,
 .fa-arrow-up,
 .fa-plus-square,
@@ -30,18 +19,18 @@
 .chats-header_title,
 .chat-header_title,
 .find-header_title {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 500;
 }
 
 .friend-display {
   display: block;
   text-align: center;
-  background-color: #e67ea3;
+  background-color: #2253a3;
   padding: 15px 0px;
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 22px;
-  margin-top: -20px;
+  margin-top: -15px;
   width: 100%;
 }
 
@@ -64,10 +53,9 @@
 }
 
 .friend-user-channel_header {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
-  color: whitesmoke;
 }
 
 @keyframes rotateCog {

@@ -3,9 +3,25 @@
 }
 
 .main-user,
-.main-user_profile:first-child {
+.main-user_profile:first-child,
+.main-list_channel {
   display: flex;
   align-items: center;
+}
+
+.channel_emoticon span,
+.channel_emoticon i,
+.channel_emoticon-playbox,
+.channel_emoticon-playbox i {
+  color: #fefefe;
+}
+
+.channel_emoticon-playbox{
+  border: 1px solid #2253a3;
+  border-radius:15px;
+  width:300px;
+  height:25px;
+  text-align:center;
 }
 
 .main-user_photo-people,
@@ -13,30 +29,82 @@
   width: 75px;
   height: 75px;
   border-radius: 31px;
+  border: 1px solid #2253a3;
   margin-right: 20px;
+}
+
+.main-user-withsub{
+  margin-top:-8px;
+  margin-bottom: -13px;
 }
 
 .user-info-title {
   font-weight: 600;
   font-size: 25px;
   margin-bottom: 5px;
-  color: #f9c596;
+  color: #fefefe;
+}
+
+.user-info-title span {
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.user-info-channel {
+  font-weight: 600;
+  font-size: 25px;
+  color: #fefefe;
+  display: flex;
+  align-items: center;
 }
 
 .user-info-subtitle {
   margin-top: 8px;
   font-size: 15px;
-  color: #f9c596;
+  color: #fefefe;
 }
 
-.main-user_photo-icon {
+.main-user_photo-icon,
+.main-chats_photo-icon,
+.main-chats_photos-icon {
   width: 60px;
   height: 60px;
-  border-radius: 20px;
+  border-radius: 20px;  
+  margin-right: 20px;
+}
+
+.main-chats_photos-icon {
+  width:62px;
+  height:62px;
+}
+
+.photos1 {
+  width: 28px;
+  height:28px;
+  border-radius: 10px;
+}
+
+.photos2 {
+  width: 28px;
+  height:28px;
+  border-radius: 10px;
+}
+
+.photos3 {
+  width: 28px;
+  height:28px;
+  border-radius: 10px;
+}
+
+.photos4 {
+  width: 28px;
+  height:28px;
+  border-radius: 10px;
 }
 
 .chat-time {
   margin-bottom: 10px;
   display: block;
-  color: #f9c596;
+  color: #fefefe;
 }

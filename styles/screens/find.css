@@ -1,12 +1,14 @@
 .recommendfriends {
-  margin: 25px 0px;
+  margin: 15px 0px;
   padding: 25px 0px;
-  border-top: rgb(131, 130, 130);
-  border-bottom: rgb(131, 130, 130);
+  border-top: 1px solid #fefefe;
+  border-bottom: 1px solid #fefefe;
 }
 
 .recommendfriends-title {
+  margin-top: 0px;
   font-size: 18px;
+  padding-left:25px;
 }
 
 .recommendfriends span {
@@ -14,16 +16,21 @@
   display: block;
   text-align: center;
   font-size: 22px;
-  color: #2253a3;
+  color: #fefefe;
 }
 
 .openchat-header {
   display: flex;
   justify-content: space-between;
   opacity: 0.8;
-  margin-bottom: 25px;
-  color: #2253a3;
+  color: #fefefe;
   font-size: 18px;
+  margin-bottom: 15px;
+  padding: 0 25px;
+}
+
+.openchat-title {
+  margin-top: 0px;
 }
 
 .openchat-header span {
@@ -35,25 +42,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 25px;
 }
 
 .openpost-title {
   font-weight: 600;
   margin-bottom: 7px;
   font-size: 18px;
+  color: #49c0ec;
 }
 
 .openpost-theme {
   text-transform: uppercase;
   margin: 0;
   opacity: 0.8;
+  color: #49c0ec;
 }
 
 .openpost-members {
   margin-top: 7px;
   display: flex;
   align-items: center;
-  color: #2253a3;
+  color: #49c0ec;
 }
 
 .openpost-members img {
@@ -76,7 +86,7 @@
 }
 
 .openpost-member_status {
-  color: #ffb0e0;
+  color: #e62722;
 }
 
 .openpost-photo {

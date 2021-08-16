@@ -1,0 +1,22 @@
+@keyframes finishloading {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  
+  #loading {
+    width:105%;
+    height:120%;    
+    left:0px;
+    top:0px;
+    background-color:black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: finishloading 5s ease-in-out forwards;
+}

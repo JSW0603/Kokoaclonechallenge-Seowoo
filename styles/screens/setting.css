@@ -4,7 +4,7 @@
   font-size: 20px;
   display: flex;
   align-items: center;
-  color: var(---line-grey);
+  color: #fefefe;
   justify-content: space-between;
 }
 
@@ -12,7 +12,7 @@
   opacity: 0.8;
   margin-right: 20px;
   font-size: 22px;
-  color: var(--line-grey);
+  color: #fefefe;
 }
 
 .settings_setting-column:last-child {

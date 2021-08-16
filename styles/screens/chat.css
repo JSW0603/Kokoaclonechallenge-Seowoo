@@ -31,6 +31,19 @@
   }
 }
 
+.chat-header_column {
+  width: 33%;
+}
+
+.chat-header_column:nth-child(2){
+  text-align: center;
+}
+
+.chat-header_column:last-child{
+  display: flex;
+  justify-content:flex-end;
+}
+
 .main-chat {
   margin-top: 100px;
   display: flex;
@@ -40,12 +53,20 @@
 }
 
 .chat-marktime {
-  color: #2253a3;
-  background-color: #f9c596;
+  color: #fefefe;
+  background-color: #8c79b4;
   padding: 15px;
   font-size: 14px;
   border-radius: 25px;
   margin-bottom: 25px;
+}
+
+.message-checkbox {
+  display:inline-grid;
+}
+
+.message-check {
+  margin-left: 3px;
 }
 
 .message-main,
@@ -66,7 +87,7 @@
 .message-sender {
   margin-bottom: 5px;
   display: block;
-  color: #2253a3;
+  color: #fefefe;
 }
 
 .message-info {
@@ -75,17 +96,17 @@
 }
 
 .message-circle {
-  background-color: #f9c596;
+  background-color: #8c79b4;
   padding: 13px;
   font-size: 18px;
   border-radius: 15px;
   border-top-left-radius: 0px;
   margin-right: 5px;
-  color: #2253a3;
+  color: #fefefe;
 }
 
 .message-time {
-  color: #2253a3;
+  color: #fefefe;
 }
 
 .message-sender,
@@ -122,9 +143,10 @@
 
 .reply {
   position: fixed;
+  margin-left: -8px;
   bottom: 0;
   width: 100%;
-  background-color: #e67ea3;
+  background-color: #8c79b4;
   display: flex;
   justify-content: space-between;
   padding: 5px 25px;
@@ -135,13 +157,13 @@
 
 .reply i {
   opacity: 0.5;
-  color: #2253a3;
+  color: #fefefe;
 }
 
 .reply input {
   padding: 12px;
   width: 100%;
-  background-color: #f9c596;
+  background-color: #e67ea3;
   border: none;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
@@ -160,7 +182,7 @@
 }
 
 .reply_column button {
-  background-color: var(--yellow);
+  background-color: #8c79b4;
   border: none;
   width: 30px;
   height: 30px;
@@ -189,8 +211,8 @@
 }
 
 .reply:focus-within input {
-  width: 98vw;
-  transform: translateX(-12%) translateY(-80px);
+  width: 85vw;
+  transform: translateX(-8%) translateY(-80px);
 }
 
 .reply:focus-within {
@@ -198,6 +220,6 @@
 }
 
 input::placeholder {
-  color: #2253a3;
+  color: #fefefe;
   font-family: "Indie Flower", cursive;
 }

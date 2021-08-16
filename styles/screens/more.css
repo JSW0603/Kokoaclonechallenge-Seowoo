@@ -2,6 +2,10 @@
   margin-left: 10px;
 }
 
+.more-main {
+  padding: 0 25px;
+}
+
 .fa-comment-alt {
   font-size: 50px;
   padding-right: 10px;
@@ -16,20 +20,10 @@
   margin-top: 35px;
 }
 
-.icon-row-sec {
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 25px;
-}
-
-.icon-row_icon-sec {
-  padding-left: 7px;
-}
 
 .more-suggestions {
   margin-top: 50px;
-  border-top: rgb(131, 130, 130);
+  border-top: 1px solid #fefefe;
   padding-top: 30px;
 }
 
@@ -51,7 +45,7 @@
 .more-suggestions_icon-image {
   width: 60px;
   height: 60px;
-  background-color: #f9c596;
+  background-color: #a3cc54;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -60,6 +54,6 @@
 
 .more-suggestions_icon-image i {
   font-size: 32px;
-  color: #2253a3;
+  color: #fefefe;
   padding-top: 6px;
 }

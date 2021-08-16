@@ -1,18 +1,20 @@
 .over-screen {
   position: absolute;
   z-index: 99;
-  height: 100vh;
-  background-color: #2253a3;
+  height: 200vh;
+  background: radial-gradient(#a3cc54, #71c7d4, #49c0ec, #2253a3);
   width: 100vw;
   display: flex;
   top: 0;
   justify-content: center;
   align-items: center;
   font-size: 32px;
+  margin-left: -8px; 
 }
 
-@media screen and (max-width: 900px) {
-  .no-mobile {
+
+@media screen and (max-width: 1000px) {
+  .over-screen {
     display: none;
   }
 }

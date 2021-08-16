@@ -28,18 +28,34 @@
   padding: 10px 0px;
   background-color: transparent;
   margin-bottom: 20px;
+  font-size: 15px;
 }
 
 input:first-child,
 input:nth-child(2) {
-  border-bottom: 1px solid #f9c596;
+  border-bottom: 1px solid #fefefe;
   transition: border-color 2s ease-in-out;
 }
 
+input:nth-child(3) {
+  width: 150px;
+  height: 50px;
+  border: 2px outset;
+  border-radius: 18px;
+  margin-top: 15px;
+  margin-left: 46%;
+  background-color: #e67ea3;
+}
+
+input:nth-child(3):hover {
+  border: 2px inset; 
+}
+
+.login-form input,
 .login-form input::placeholder,
 .login-form input:focus,
 .login-form input[type="submit"] {
-  color: #f9c596;
+  color: #fefefe;
   font-family: "Indie Flower", cursive;
 }
 
@@ -48,8 +64,7 @@ input:nth-child(2) {
 }
 
 .login-form input:focus {
-  border-color: #e0c9b5;
-  color: #f9c596;
+  border-color: #fefefe;
 }
 
 .login-form input[type="submit"] {
@@ -57,9 +72,15 @@ input:nth-child(2) {
   font-weight: bold;
   font-size: 20px;
   border-radius: 12px;
+  border-color: #fefefe;
 }
 
 .login-form a {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
+  color: #8c79b4;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
 }

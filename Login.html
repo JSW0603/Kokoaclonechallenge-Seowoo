@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="styles/styles.css"/>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=devide-width, initial-scale=1.0"/>
-        <title>Welcome to Twiceland</title>
+        <title>Welcome to Twicetalk</title>
     </head>
     <body>
         <div class="state-bar">
@@ -13,7 +13,7 @@
                 <i class="fas fa-wifi"></i>
             </div>
             <div class="state-bar_column">
-                <span>09:27</span>
+                <span>12:27</span>
             </div>
             <div class="state-bar_column">
                 <span>76%</spa>
@@ -22,21 +22,25 @@
         </div>
 
         <header class="welcome-header">
-            <h1 class="welcome-header_title">Welcome to Twiceland</h1>
+            <h1 class="welcome-header_title">Welcome to Twicetalk</h1>
             <p class="welcome-header_text">If you are a Once, Please log in with your account</p>
         </header>
         
         <form action="friends-list.html" method="get" class="login-form">
-            <input name="username" type="text" placeholder="Please, Write your email or Account"/>
-            <input name="password" type="password" placeholder="Password"/>
+            <input name="username" type="text" placeholder="Please, Write your email or Account" required/>
+            <input name="password" type="password" placeholder="Password" required/>
             <input type="submit" value="Log In"/>
-            <a href="#">Find Twiceland Account or Password</a>
+            <a href="#">Find Twicetalk Account or Password</a>
         </form>
 
         <div id="screen-size">
             <span>Please control your screen</span>
         </div>
-                
+
+        <div class="over-screen">
+            <span>화면이 너무 커요. 크기를 줄이면 보기 더 좋을거예요!</span>
+        </div>
+        
         <script src="https://kit.fontawesome.com/5fa6b2922d.js" crossorigin="anonymous"></script> 
     </body>
 </html>
